@@ -1,4 +1,4 @@
-import jamilrayhan from "../../images/jmailrayhan.png";
+import numansaady from "../../images/numansaady.png";
 import Menubar from "../../Shear/Menubar/Menubar";
 import "./About.css";
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
             >
               <div className="about_left_area">
                 <div className="image">
-                  <img src={jamilrayhan} alt="" />
+                  <img src={numansaady} alt="" />
                 </div>
                 <div className="info_box">
                   <ul>

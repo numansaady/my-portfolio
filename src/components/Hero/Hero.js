@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import jamilrayhan from "../images/jmailrayhan.png";
+import numansaady from "../images/numansaady.png";
 import "./Hero.css";
 
 // import "react-simple-typewriter/dist/index.js";
@@ -59,7 +59,7 @@ const Hero = () => {
                 </div>
                 <div className="col-lg-6  ">
                   <div className="hero_img text-end">
-                    <img src={jamilrayhan} alt="" />
+                    <img src={numansaady} alt="" />
                   </div>
                 </div>
               </div>
