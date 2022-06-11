@@ -1,0 +1,10 @@
+.service_box i {
+  font-size: 44px;
+  width: 100px;
+  height: 100px;
+  background-color: #ff451b;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+}

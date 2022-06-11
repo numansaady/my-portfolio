@@ -1,0 +1,16 @@
+.resume_icon {
+  transition: all 0.8s;
+}
+.resume_icon:hover {
+  background-color: #413939;
+  transition: 0.8s;
+  /* border: none !important; */
+}
+.resume_icon img {
+  width: 120px;
+  height: 120px;
+}
+.resume_icon p {
+  color: rgb(235, 236, 234);
+  margin-top: 5px;
+}

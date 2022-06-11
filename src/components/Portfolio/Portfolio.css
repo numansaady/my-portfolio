@@ -1,0 +1,33 @@
+.filter_btn button {
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.8s;
+  z-index: 1;
+  margin: 10px 5px 0;
+}
+.filter_btn button:hover {
+  background-color: rgba(235, 31, 4, 0.952);
+  color: #fff;
+}
+.box img {
+  height: 200px;
+}
+
+.all_product {
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 10px 30px;
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  background-color: #ff451b;
+  color: #fff;
+  font-weight: 500;
+}

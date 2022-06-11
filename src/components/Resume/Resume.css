@@ -1,0 +1,88 @@
+.education {
+  margin-top: 10px;
+  align-items: center;
+  transition: 0.8s;
+}
+.education p {
+  margin: 0;
+  padding: 0;
+}
+.education span {
+  border: 1px solid rgb(241, 64, 10);
+  margin: 10px 0;
+  padding: 5px 30px;
+  border-radius: 30px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.education:hover span {
+  background-color: #aeafb3;
+  background-color: rgb(241, 64, 10);
+}
+.programming_skill .skill span {
+  width: 100%;
+  background-color: rgb(241, 64, 10);
+  display: block;
+  border-radius: 20px;
+  padding-left: 15px;
+  position: relative;
+  color: rgb(5, 2, 2);
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.programming_skill .skill span::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 100%;
+  background-color: rgb(174, 175, 179);
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.programming_skill .css span::before {
+  width: 85%;
+}
+.programming_skill .bootstrap span::before {
+  width: 90%;
+}
+.programming_skill .tailwind span::before {
+  width: 50%;
+}
+.programming_skill .material span::before {
+  width: 65%;
+}
+
+.programming_skill .react span::before {
+  width: 80%;
+}
+
+.programming_skill .javascript span::before {
+  width: 75%;
+}
+
+.programming_skill .es6 span::before {
+  width: 75%;
+}
+.programming_skill .node span::before {
+  width: 60%;
+}
+.programming_skill .mongodb span::before {
+  width: 60%;
+}
+
+.category_btn button {
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  padding: 10px 30px;
+  background-color: rgb(241, 64, 10);
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 5px;
+}

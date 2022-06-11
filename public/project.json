@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/D4z1WSs/ns-industries.png",
+    "projectName": "NS INDUSTRIES",
+    "description": "This is a full stack website",
+    "liveLink": "https://ns-industries.web.app/",
+    "clintLink": "https://github.com/rjamil336/MERN_STACK_PROJECT",
+    "serverLink": "https://github.com/rjamil336/CLOCK_WEBSITE_SERVER_SITE",
+    "category": "react"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/XV7qwLn/ns-perfumes.png",
+    "projectName": "NS PERFUMES",
+    "description": "This is a full stack website",
+    "liveLink": "https://ns-perfume-center.web.app/",
+    "clintLink": "https://github.com/rjamil336/travelin-website-react-js-client-side",
+    "serverLink": "https://github.com/rjamil336/traveling-server",
+    "category": "react"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/1sDCCjf/e-tutor.png",
+    "projectName": "E-TUTOR",
+    "description": "This is a Frontend website",
+    "liveLink": "https://e-tutor-c3aaa.web.app/",
+    "clintLink": "https://github.com/rjamil336/health-care-website",
+    "category": "react"
+  }
+]

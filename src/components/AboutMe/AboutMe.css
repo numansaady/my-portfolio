@@ -1,0 +1,77 @@
+.contact_section,
+.blog_section,
+.testimonial_section,
+.service_section,
+.portfolio_section,
+.resume_section,
+.about_section {
+  background-color: #494b50;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin: 15px 0;
+}
+
+.about_left_area {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.about_left_area img {
+  position: relative;
+  min-width: 60%;
+
+  border-radius: 20px;
+}
+.info_box {
+  position: relative;
+  /* width: 100%; */
+  min-width: 47%;
+  left: -55px;
+  margin-top: 55px;
+  background-color: #ff451b;
+  padding: 30px 40px 35px 15px;
+  z-index: 1;
+  border-radius: 15px;
+}
+.info_box ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.info_box ul li {
+  margin: 0px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  padding: 13px 0px;
+}
+.info_box ul li:first-child {
+  padding-top: 0;
+}
+.info_box ul li h3 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 2px;
+  opacity: 0.85;
+}
+
+/*--------------------- about_right_area------------------- */
+.about_right_area h2 {
+  color: #ff451b;
+}
+
+/*--------------------> Media Query <----------------------*/
+
+@media (max-width: 997px) {
+  .about_left_area {
+    margin: auto;
+  }
+  .about_left_area img {
+    display: none;
+  }
+  .info_box {
+    left: 0;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+}
